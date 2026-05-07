@@ -1,0 +1,8 @@
+{
+  "name": "نظام إدارة مكتب النائب",
+  "description": "نظام إدارة ذكي لمكتب نائب يدعم الذكاء الاصطناعي وتكاملات Google Sheets.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": []
+}
