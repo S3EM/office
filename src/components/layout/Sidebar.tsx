@@ -53,7 +53,11 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, setIsOpen }) => {
             <div className="w-8 h-8 bg-emerald-600 rounded-md flex items-center justify-center shadow-lg shadow-emerald-900/20 text-white">
               <LayoutDashboard size={20} />
             </div>
-            <span className="font-bold text-lg tracking-tight text-foreground">مكتب النائب - حاتم الشامي</span>
+            <span className="font-bold text-lg tracking-tight text-foreground flex items-center gap-1.5 flex-row" dir="rtl">
+              <span>مكتب النائب</span>
+              <span>-</span>
+              <span>حاتم الشامي</span>
+            </span>
           </div>
           <button 
             className="lg:hidden text-muted-foreground hover:text-foreground"
