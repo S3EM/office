@@ -1,0 +1,16 @@
+{
+  "short_name": "مكتب النائب",
+  "name": "مكتب النائب - النظام الإداري",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#10b981",
+  "background_color": "#020617"
+}
