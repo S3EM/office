@@ -35,8 +35,8 @@ export const Login: React.FC = () => {
           <div className="w-16 h-16 bg-emerald-600 rounded-2xl flex items-center justify-center shadow-lg shadow-emerald-900/20 text-white mx-auto mb-4">
             <Lock size={32} />
           </div>
-          <h1 className="text-2xl font-bold text-slate-100">مكتب النائب</h1>
-          <p className="text-slate-400 mt-2">تسجيل الدخول للنظام الإداري</p>
+          <h1 className="text-2xl font-bold text-slate-100">مكتب النائب - حاتم الشامي</h1>
+          <p className="text-slate-400 mt-2">تسجيل الدخول لمكتب النائب - حاتم الشامي</p>
         </div>
 
         <form onSubmit={handleLogin} className="space-y-6">

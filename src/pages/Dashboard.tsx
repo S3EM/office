@@ -134,7 +134,7 @@ export const Dashboard: React.FC = () => {
       {/* Print View */}
       <div className="hidden print:block text-black bg-white" dir="rtl">
         <div className="text-center border-b-2 border-gray-300 pb-4 mb-4">
-          <h1 className="text-2xl font-bold mb-2">تقرير طلبات مكتب النائب</h1>
+          <h1 className="text-2xl font-bold mb-2">تقرير طلبات مكتب النائب - حاتم الشامي</h1>
           <p className="text-gray-600">
             التاريخ: {new Date().toLocaleDateString('ar-EG')} - القسم: {selectedFilter === 'all' ? 'جميع الطلبات' : selectedFilter}
           </p>
